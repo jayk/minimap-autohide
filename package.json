@@ -3,7 +3,7 @@
 	"main": "./lib/minimap-autohide",
 	"version": "0.9.0",
 	"description": "Automatically hide the minimap when you aren't using it.",
-	"repository": "https://github.com/atom/minimap-autohide",
+	"repository": "https://github.com/jayk/minimap-autohide",
 	"license": "MIT",
 	"engines": {
 		"atom": ">0.50.0"
