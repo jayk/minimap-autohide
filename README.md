@@ -6,7 +6,7 @@ This package automatically hides the minimap until you need it.
 
 When editing normally, you have the entire window for your editor. As soon as you begin to scroll, the minimap appears and you can interact with it normally.
 
-Written by \@JayKuri - If you like it, say Hi!
+Written by @JayKuri - If you like it, say Hi!
 
 ![Minimap autohide animated image](https://raw.githubusercontent.com/jayk/minimap-autohide/master/screenshot.gif)
 
