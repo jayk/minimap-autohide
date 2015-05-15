@@ -8,7 +8,7 @@ When editing normally, you have the entire window for your editor. As soon as yo
 
 Written by \@JayKuri - If you like it, say Hi!
 
-![Minimap autohide animated image](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Minimap autohide animated image](https://raw.githubusercontent.com/jayk/minimap-autohide/master/screenshot.gif)
 
 By default the minimap will be hidden when not scrolling, and will slide out from the right when scrolling.  You can, however, tweak the appearance. When you are scrolling, the minimap will have a class 'scrolling' added to it. You can therefore override the default by adding an entry to your personal styles.less file.
 
@@ -35,4 +35,4 @@ Likewise, if you don't like the semi-transparent background, you can override it
     background: #000040;
   }
 
-Known issues: Does not interact well with 'minimap-on-left' setting. You may, however, be able to set a style in your own styles.less that would allow it to work. 
+Known issues: Does not interact well with 'minimap-on-left' setting. You may, however, be able to set a style in your own styles.less that would allow it to work.
