@@ -1,0 +1,21 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+atom-text-editor::shadow {
+
+  atom-text-editor-minimap.scrolling {
+    left: 90%;
+    opacity: 1;
+  }
+  atom-text-editor-minimap {
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 100%;
+    transition: left 0.1s, opacity 0.2s;
+    opacity: 0.05;
+  }
+
+}
