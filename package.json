@@ -1,7 +1,7 @@
 {
   "name": "minimap-autohide",
   "main": "./lib/minimap-autohide",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Automatically hide the minimap when you aren't using it.",
   "repository": "https://github.com/jayk/minimap-autohide",
   "license": "MIT",
