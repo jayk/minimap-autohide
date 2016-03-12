@@ -5,17 +5,33 @@
 @import "ui-variables";
 
 atom-text-editor::shadow {
-
-  atom-text-editor-minimap.scrolling, atom-text-editor-minimap:hover {
-    left: 90%;
-    opacity: 1;
+  atom-text-editor-minimap.scrolling:hover, atom-text-editor-minimap:hover{
+    &.absolute {
+      opacity: 1;
+      left: 90%;
+      
+      &.left {
+          position: relative;
+          right: initial;
+          left: initial;
+        }
+    }
   }
-  atom-text-editor-minimap {
-    background: rgba(0,0,0,0.2);
-    position: absolute;
-    left: 100%;
-    transition: left 0.1s, opacity 0.2s;
-    opacity: 0.05;
+  
+  atom-text-editor-minimap { //fixme: change this and set function on script
+    &.absolute {
+      animation-delay 0.5
+      left: 100%;
+      background: rgba(0,0,0,0.2);
+      position: absolute;
+      transition: left 0.1s, opacity 0.2s;
+      opacity: 0.05;
+      
+      &.left {
+        position: relative;
+        left:-10%
+      }
+    }
   }
-
 }
+
