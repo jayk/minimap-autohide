@@ -6,7 +6,7 @@
   "repository": "https://github.com/jayk/minimap-autohide",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.13.0"
   },
   "consumedServices": {
     "minimap": {

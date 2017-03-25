@@ -23,7 +23,7 @@ module.exports =
     @minimapsSubscription = @minimap.observeMinimaps (minimap) =>
       minimapElement = atom.views.getView(minimap)
       editor= minimap.getTextEditor()
-      @subscriptions.add editor.onDidChangeScrollTop =>
+      @subscriptions.add editor.editorElement.onDidChangeScrollTop =>
         @handleScroll minimapElement
 
   handleScroll: (el)->
