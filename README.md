@@ -2,6 +2,12 @@
 
 ## Hide your minimap until you need it.
 
+## DEPRECATION WARNING 
+
+This module is no longer maintained.  Please use [@ansballard's excellent replacement](https://github.com/ansballard/minimap-autohider) instead.
+
+## DEPRECATION WARNING
+
 This package automatically hides the minimap until you need it.
 
 When editing normally, you have the entire window for your editor. As soon as you begin to scroll, the minimap appears and you can interact with it normally.
